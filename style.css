@@ -1,0 +1,82 @@
+.fixed {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-left: 160px;
+}
+
+.container {
+    width: 50%;
+    height: 200px;
+    background-color: #b8b9ad;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.h1,
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    margin-left: 80px;
+}
+
+.password {
+    margin-left: 5px;
+}
+
+.services {
+    margin-top: 100px;
+}
+
+.sidenav {
+    font-size: 1.2em;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.todo {
+    font-size: 2em;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

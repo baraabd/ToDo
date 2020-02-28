@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="fixed">
+
+        <div class="container">
+            <div>
+                <h1>Välkommen till hemsida</h1>
+            </div>
+            <br>
+
+            <div>
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required id="username">
+            </div>
+
+            <div>
+                <label for="psw"><b>Password</b></label>
+                <input class="password" type="password" placeholder="Enter Password" name="psw" required id="password">
+            </div>
+
+            <button type="submit" onclick="validateForm()">Login</button>
+
+        </div>
+    </div>
+
+
+    <div class="sidenav">
+
+        <div class="todo">TODO</div>
+
+        <a class="services" href="services.html">Services</a>
+        <a href="client.html">Clients</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+
+</body>
+
+<script src="./handler.js"></script>
+
+</html>
